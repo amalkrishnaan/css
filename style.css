@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+div{
+    width: 200px;
+    height: 200px;
+}
+.div1{
+    background-color: coral;
+    position: absolute;
+    top:15%;
+    left: 20%;
+    width: 60%;
+    height: 65.5%;
+}
+.round{position: absolute;
+    background-color: rgb(219, 92, 53);
+    top: 15.1%;
+    right:20%;
+    border-radius: 100%;
+    padding: 10.5%;
+
+
+}
+.parent{
+    width: 70%;
+    height: 100vh;
+    position: absolute;
+    top: 20.5%;
+    left: 47%;
+
+}
+.img{
+    width: 65.1%;
+    height: 60%;
+}
+.chill{
+    width: 18%;
+    height: 100vh;
+    position: absolute;
+    top: 45.3%;
+    left: 63.1%;
+}
+.pic{
+    width: 67%;
+    height: 35%;
+}.div2{
+    background-color: black;
+    position: absolute;
+    top: 67%;
+    left: 62.9%;
+    width: 7.2%;
+    height: 10%;
+}
+.ee{
+    position: absolute;
+    left: 62.8%;
+    top:69%;
+    color: white;
+    font-size: 15px;
+    font-style:italic
+}
+.head{
+    width: 60%;
+    font-size: 17px;
+    position:absolute;
+    color: white;
+    left:25%;
+    top:30%
+}
+.par{
+    font-size: 17px;
+    width: 30%;
+    color: white;
+    position:absolute;
+    left: 25%;
+    top: 47%;
+}
+.box{
+    position:absolute;
+    background: white;
+    top:60%;
+    left:25%;
+    padding: 20px 20px;
+    height: 17px;
+    width: 4%;
+    font-size: 8px;
+padding: 20px 
+}
