@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: black;
+    color: white;
+}
+.left{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 0px 20px;
+    list-style: none;
+}
+.div{ 
+    height: 200%;
+    width: 100%;
+}
+.parent{
+    background-image: url(./photorealistic-burger-meal.jpg);
+    height:100vh;
+    width: 100%;
+/* background-repeat: no-repeat; */
+background-position: center;
+/* object-fit: cover; */
+background-size: cover;
+background-attachment:scroll;
+min-height: 350vh;
+}
+.offer{
+    width: 40%;
+    height: 50%;
+position: absolute;
+top: 10%;
+padding:50px 20px;
+right: 1%;
+}
+.hori{position: absolute;
+opacity:10px;
+/* height: 50px; */
+margin-right:auto;
+margin-left: auto;
+margin-top:700px;
+margin-bottom:100px;
+color: white;
+background-color: black;
+height: 10px;
+width: 100%;
+}
+.p1{ 
+    width: 40%;
+    height: 40vh;
+    top: 102%;
+    left: 5%;
+    position: absolute;
+
+}
+.p2{
+        width: 40%;
+        height: 40vh;
+        top: 102%;
+        right: 5%;
+        position: absolute;
+    
+}.product{
+    top: 160%;
+    position: absolute;
+    color:white;
+    background-color: black;
+    padding: 0% 48%;
+    flex-wrap: wrap;
+}
+
