@@ -1,0 +1,1169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#1b1a1a;
+    padding: 10px 20px;
+}
+
+.navbar .logo img {
+    height: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: backgrond 0.3s;
+}
+
+.nav-links li a:hover {
+    background-color: #555;
+}
+
+.nav-icons a img {
+    height: 40px;
+    margin-left: 20px;
+}
+
+.sale-banner {
+    position: relative;
+    background-image: url('./pic/3d-shoe-shape-glowing-with-bright-holographic-colors.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.sale-banner .overlay {
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.banner-content {
+    position: relative;
+    z-index: 1;
+}
+
+.sale-text h1 {
+    font-size: 80px;
+
+    color: yellow;
+    margin-right: 900px;
+    margin-top: -100;
+    margin-left: -30px;
+
+}
+
+.sale-text h2 {
+    font-size: 60px;
+    margin: 10px 0;
+    margin-left: 950px;
+    margin-top: -350px;
+}
+
+.sale-text p {
+    font-size:20px;
+    margin-left: 950px;
+    margin-top: 0px;
+    font-weight: bolder;
+}
+
+.buttons {
+    margin-top: 20px;
+    margin-left: 950px;
+}
+
+.buttons .btn {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.buttons .btn:hover {
+    background-color: yellow;
+}
+.hari{
+    width: 100%;
+    background-color: burlywood;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+
+}
+.h1{
+    font-size: 20px;
+}
+/*  */
+
+.search-container {
+    display: flex;
+    width: 15%;
+   
+}
+
+.search-input {
+    width: 90%;
+    padding: 10px;
+    font-size: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px 0 0 5px;
+
+    
+}
+
+.search-button {
+    width: 60%;
+    padding: 10px 20px;
+    font-size: 10px;
+    border: 2px solid #fff;
+    border-left: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+ 
+}
+
+.search-button:hover {
+    background-color: #555;
+}
+/*  */
+.container {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.number-theme {
+    font-size: 10vw; 
+    font-weight: bold;
+    color: #ffeb3b; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    background: url('path/to/your/image.png') no-repeat center center / cover; 
+    display: inline-block;
+    padding: 20px; 
+    margin-left: 20px;
+}
+/*  */
+.title{
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.title>h1{
+    font-size: 39px;
+}
+.title>h4{
+    font-size: 18px;
+}
+.title2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px 35px;
+    
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgb(178, 10, 156),white,blue);
+    color:black;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  /*  */
+  .pic1{
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: url('./pic/soccer-stadium-full-people.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: brightness(100%);
+}
+.content {
+    position: relative;
+    color: white;
+    text-align: left;
+    max-width: 600px;
+    padding: 20px;
+    margin-right: 900px;
+    /* margin-top: -110px; */
+  }
+  .content h1 {
+    font-size: 37px;
+    margin-bottom: 20px;
+  }
+  .content h5 {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .content .highlight {
+    margin-top: 20px;
+    margin-left: 170px;
+    width: 35%;
+    height: 50px;
+    background-color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+  }
+ /*  */
+ .headd{
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ /*  */
+ .pic2{
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: url('./pic/guy-stance-dark-room.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: brightness(100%);
+ }
+ .content1 {
+    position: relative;
+    color: white;
+    text-align: left;
+    max-width: 600px;
+    padding: 20px;
+    margin-left: 1100px;
+  
+    /* margin-top: -110px; */
+  }
+  .content1 h1 {
+    font-size: 37px;
+    margin-bottom: 20px;
+  }
+  .content1 h5 {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .content1 .highlight1 {
+    margin-top: 20px;
+    margin-left: 43px;
+    width: 65%;
+    height: 50px;
+    background-color: white;
+    font-size:20px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+  }
+  /* end */
+  .pic3{
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: url('./pic/modern-light-shoes-street-ai-generated.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: brightness(100%);
+ }
+ .content2{
+      position: relative;
+      color: white;
+
+ }
+ .content2>h1{
+  font-size: white;
+  margin-left: 1100px;
+     
+ }
+ .content2>h5{
+  margin-top: 20px;
+  margin-left: 1085px;
+  font-size: 15px;
+ }
+ .content2>.highlight1{
+  margin-top: 20px;
+  margin-left: 1180px;
+  background-color: aliceblue;
+  color: #000;
+  width: 10%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+ }
+ 
+  /*  */
+  .pic4{
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: url('./pic/athlete-ready-run-with-are-you-ready-message.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: brightness(100%);
+ }
+ .con{
+    position: relative;
+    color: white;
+    text-align: left;
+    max-width: 400px;
+    padding: 20px;
+    margin-right: 500px;
+    margin-top: -300px;
+  
+    /* margin-top: -110px; */
+  }
+  .con>h1{
+  font-size: 37px;
+  }
+  .con>h5{
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .con .highlight1 {
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 45%;
+    height: 50px;
+    background-color: white;
+    font-size:20px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+  }
+  /*  */
+  .pic5{
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: url('./pic/tennis-girl-professional-tennis-court.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: brightness(100%);
+ }
+ .content4 {
+    position: relative;
+    color: white;
+    text-align: left;
+    max-width: 600px;
+    padding: 20px;
+    margin-left: 1100px;
+    margin-top: -300px;
+  
+  
+  }
+  .content4 h1 {
+    font-size: 37px;
+    margin-bottom: 20px;
+  }
+  .content4 h5 {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .content4 h6{
+    margin-left: 95px;
+  }
+  .content4 .highlight1 {
+    margin-top: 20px;
+    margin-left: 90px;
+    width: 45%;
+    height: 50px;
+    background-color: white;
+    font-size:20px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+  }
+  /*  */
+  .pic6{
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: url('./pic/argentina.webp') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: brightness(100%);
+ }
+ .content5 {
+    position: relative;
+    color: white;
+    text-align: left;
+    max-width: 600px;
+    padding: 10px;
+    margin-left: 1100px;
+    margin-top: 350px;
+    backdrop-filter: brightness(40%);
+    border-radius: 10px;
+  
+    /* margin-top: -110px; */
+  }
+  .content5 h1 {
+    font-size: 37px;
+    margin-bottom: 10px;
+  }
+  .content5 h5 {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .content5 h6{
+    margin-left: 55px;
+  }
+  .content5 .highlight1 {
+    margin-top: 20px;
+    margin-left: 43px;
+    width: 65%;
+    height: 50px;
+    background-color: white;
+    font-size:20px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+  }
+  /*  */
+  .pic7{
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: url('./pic/soccer-stadium-full-people\ \(2\).jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .content6 {
+    position: relative;
+    color: white;
+    text-align: left;
+    max-width: 600px;
+    margin: 10px;
+    margin-left: 1100px;
+  }
+  .content6 h1 {
+    font-size: 37px;
+    margin-bottom: 10px;
+  }
+  .content6 h5 {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .content6 h6{
+    margin-left: 70px;
+  }
+  .content6 .highlight1 {
+    margin-top: 10px;
+    margin-left: 75px;
+    width: 45%;
+    height: 50px;
+    background-color: white;
+    font-size:20px;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    
+  }
+  /* video */
+  .video-background {
+    position: relative;
+    width: 100%;
+    height: 70%;
+  }
+  video {
+    position: relative;
+    margin-top: 250px;
+    left: 50%;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+  }
+  /*  */
+  .pic8{
+   
+    margin-top: -250px;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: url('./pic/fast-fashion-concept-with-full-clothing-store.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+
+ }
+ .pic8>img{
+  z-index: 1;
+  width: 50px;
+  margin-top: -478px;
+ }
+ .content8{
+  background-color:black;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 70vh;
+    margin-left: 1100px;
+  }
+  .content8>h1{
+    margin-top: 210px;
+    font-size: 42px;
+  }
+  .content8>h5{
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  .content8>h6{
+    margin-top: 10px;
+    font-size: 15px;
+
+  }
+  .content8>.highlight1{
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    width: 40%;
+    height: 50px;
+    font-size: 20px;
+  }
+  /*  */
+  .head3{
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+  /*  */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
+  .grid-item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+  }
+  
+  .overlay h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .overlay p {
+    margin: 5px 0 0;
+    font-size: 1em;
+  }
+  /*  collab*/
+   .backkk{
+    margin-top: 40px;
+    background-color:rgb(189, 239, 244);
+    width: 100%;
+    height: 80vh;
+    z-index: -1;
+  }
+  .backkk>h1{
+
+    margin-top: 60px;
+    padding: 30px;
+  }
+  .backkk>h2{
+    
+    margin-left: 30px;
+  }
+  .he2{
+    margin-left: 30px;
+    margin-top: 15px;
+    display: flex;
+  
+  }
+  .he2>h1{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+  
+    padding: 15px;
+  
+  }
+  .he2>h2{
+    color: white;
+    background-color: black;
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 15px;
+  }
+  .hee2{
+    mask-repeat: no-repeat;
+    height: 85vh;
+    width: 45%;
+    height: 130vh;
+    margin-left: 760px;
+    margin-top: -230px;
+    z-index: 0;
+  }
+  .hee2>img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  } 
+ 
+  .video-background2{
+    position: relative;
+    width: 50%;
+    height: 90%;
+    z-index: 2;
+    margin-left: 50px;
+    margin-top: -710px;
+  }
+  .video2 {
+    margin-top:-359px;
+    position: relative;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  } 
+  /*  */
+  .pic9{
+    margin-top: 180px;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: url('./pic/WhatsApp\ Image\ 2024-07-17\ at\ 4.53.43\ PM.jpeg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .content10 {
+    position: relative;
+    color: white;
+    text-align: left;
+    max-width: 800px;
+    margin: 10px;
+    margin-right: 1000px;
+  }
+  .content10>h1{
+    
+    margin-top: 35px;
+    margin-left: 30px;
+    font-size: 35.5px;
+    font-weight: bolder;
+  }
+  .content10>h2{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 25px;
+  }
+  .he2{
+    margin-left: 30px;
+    margin-top: 35px;
+    display: flex;
+  
+  }
+  .he2>h1{
+    color: black;
+    background-color:white;
+    font-size: 15px;
+    height: 20px;
+    padding: 10px;
+  
+  }
+  .he2>h2{
+    color: black;
+    background-color:white;
+    margin-left: 30px;
+    font-size: 15px;
+    padding: 10px;
+    height: 20px;
+
+  }
+/*  */
+/*  */
+   .pic10{
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: url('./pic/WhatsApp\ Image\ 2024-07-17\ at\ 4.53.43\ PM\ \(1\).jpeg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .content11 {
+    position: relative;
+    color:black;
+    text-align: left;
+    max-width: 600px;
+    margin: 10px;
+    margin-left: 1000px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .content11>h1{
+    
+    margin-top: 35px;
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  .content11>h2{
+    margin-top: 10px;
+    margin-left: 38px;
+    font-size: 25px;
+  }
+  .he22{
+    margin-left: 105px;
+    margin-top: 35px;
+    display: flex;
+  
+  }
+  .he22>h1{
+    color:white ;
+    background-color:black;
+    font-size: 15px;
+    height: 20px;
+    padding: 10px;
+  
+  }
+  .he22>h2{
+    color: white;
+    background-color:black;
+    margin-left: 30px;
+    font-size: 15px;
+    padding: 10px;
+    height: 20px;
+
+  }
+/*  */
+.pumaa{
+  margin-top: 30px;
+}
+/*  */
+.scrolling-wrapperrr {
+  margin-top: 10px;
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+.card6 {
+  flex: 0 0 auto;
+  width: 350px;
+  margin-right: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card6 img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.details {
+  padding: 10px;
+}
+
+.details p {
+  margin: 5px 0;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #888;
+}
+/*  */
+.pic11{
+  margin-top: 40px;
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  background: url('./pic/LAST.jpeg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.content12 {
+  position: relative;
+  color:white;
+  text-align: left;
+  max-width: 1200px;
+  margin: 10px;
+  margin-right: 1000px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.content12>h1{
+  width: 100%;
+  margin-top: 35px;
+  margin-left: 40px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.content12>h2{
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 45px;
+  font-size: 23px;
+}
+.he222{
+  margin-left: 175px;
+  margin-top: 35px;
+  display: flex;
+
+}
+.he222>h1{
+  color:black;
+  background-color:white ;
+  font-size: 20px;
+  height: 25px;
+  padding: 10px;
+
+}
+/*  */
+.gridhead{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+/*  */
+.gallery-container {
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  overflow: hidden;
+}
+.gallery {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+
+  
+}
+
+.image-row {
+  display: flex;
+  width: 100%;
+
+}
+
+.image-gallery img {
+  flex-shrink: 0;
+  width: calc(100% / 5);
+  height: 300px;
+  object-fit: cover;
+  margin: 5px;
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+  height: 70px;
+  width: 50px;
+}
+
+.scroll-button.left {
+  left: 0;
+}
+
+.scroll-button.right {
+  right: 0;
+}
+
+.image-gallery::-webkit-scrollbar {
+  display: none; 
+}
+/* end */
+.pumaaa{
+  margin-top: 30px;
+}
+.scrolling-wrapperrr {
+  margin-top: 10px;
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+.card6 {
+  flex: 0 0 auto;
+  width: 350px;
+  margin-right: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card6 img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.details {
+  padding: 10px;
+}
+
+.details p {
+  margin: 5px 0;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #888;
+}
+/*  */
+footer {
+  margin-top: 40px;
+  background-color: #111;
+  color: #fff;
+  padding: 20px 0;
+  text-align:left;
+  font-size: 20px;
+  
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  max-width: 100%;
+  height: 50vh;
+  margin-left: 150px;
+  margin: 40px;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 10px;
+  min-width: 300px;
+}
+
+.footer-section h3 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  color: #ffffffc2;
+  text-decoration: none;
+}
+.underline{
+  width: 100%;
+  border-bottom: 2px solid white; 
+  margin-top: 20px;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+  
+}
+.social-icons{
+  margin-top: 20px;
+}
+.social-icons img {
+  width: 30px;
+  margin: 5px;
+}
+.social-icons>h4{
+  margin: 20px;
+}
+
+.app-links{
+  margin-top: 30px;
+
+}
+.app-links img {
+  margin-top: 30px;
+  width: 65px;
+  margin: 5px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-top: 1px solid #333;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin-left: -40px;
+}
+
+.payment-methods img {
+  margin-top: 20px;
+  width: 60px;
+  margin: 5px;
+  /* margin-left: -40px; */
+}
+
+.country {
+  margin-left: 320px;
+  display: flex;
+  align-items: center;
+  border: white;
+}
+
+.country img {
+  width: 34px;
+  margin-right: 5px;
+}
+
+.footer-legal {
+  padding: 10px 0;
+  border-top: 1px solid #333;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-legal p {
+  margin-top: 30px;
+  font-size: 13px;
+  color: #9f9d9d;
+
+}
+
+.footer-legal a {
+
+  font-size: 13px;
+  color: #9f9d9d;
+  text-decoration: none;
+  margin-left: 135px;
+}
+
+.footer-legal a:hover {
+  text-decoration: underline;
+}
+
+
